@@ -17,6 +17,9 @@ public class Math_util {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Math Utilities!");
+        //tinh 5! 
+        long result = util.MathUtil.getFactorial(5);
+        System.out.println("5! = " + result);
     }
     
 }
